@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-col .add-color{
+    color: orangered;
+    text-align: justify;
+}
+.header-col p{
+    text-align: justify;
+}
+.flexible-container{
+   display: flex;
+    margin: 20px;
+
+}
+.header-col{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.header-right{
+    flex-basis: 50%;
+}
+.header-right img{
+    margin-left: 100px;
+    width: 80%;   
+}
+
+.header-left{
+     flex-basis: 50%;
+    text-align: left;
+}
+.header-col p{
+    margin-top: 20px;
+}
+.link-btn{
+    
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-color: #E9AB17;
+    margin-top:  40px;
+    padding: 10px 40px;
+    border-radius: 2px;
+    color: rgb(114, 96, 96);
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+#about-me{
+    padding:0;
+    width: 50%;
+    display: flex;
+    margin: 20px;
+    background: url(images/shapes/Frame\ 58.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+.about-image{
+    flex-basis: 50%;
+}
+.about-image img{
+    width: 60%;
+}
+.about-text{
+ padding-top: 200px;
+ padding-right: 30px;
+}
+
+.me{
+    padding-bottom: 20px;
+}
+
+#feature{
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .feature-row
+ {
+     width: 80%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+   
+     
+
+ }
+ .feature-receipe{
+     flex-basis: 30%;
+     text-align: center;
+     border: 5px solid rgb(230, 224, 224);
+     border-radius: 20px;
+ }
+ .feature-receipe img{
+     width: 100px;
+ } 
+ .feature-receipe h4{
+ 
+     margin-bottom: 15px;
+     font-size: 20px;
+     font-weight: 400;
+ }
+ .feature-receipe p{
+     margin-top: 10px;
+     font-family:s;
+ }
+
+
+ #middle{
+     text-align: center;
+ }
+
+  .footer {
+    
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    padding-bottom: 30PX;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    
+  }
+  .footer p{
+      margin-top: 20px;
+      padding-top: 15px;
+      text-align: center;
+  }
+
+
+
+
+
